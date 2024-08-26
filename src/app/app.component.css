@@ -1,0 +1,19 @@
+.dark-theme .mat-toolbar {
+    background-color: #333;
+  }
+  
+  .dark-theme a {
+    color: #ccc;
+  }
+  
+  .dark-theme .app-title {
+    color: #fff;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  a {
+    animation: fadeIn 0.5s ease-in-out;
+  }
